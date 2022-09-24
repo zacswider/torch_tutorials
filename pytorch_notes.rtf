@@ -1,0 +1,43 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2513
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica-Bold;\f1\fswiss\fcharset0 Helvetica;\f2\fswiss\fcharset0 Helvetica-BoldOblique;
+}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\b\fs24 \cf0 \ul \ulc0 Linear Layers
+\f1\b0 \ulnone :\
+\
+linear_layer = nn.Linear(in_features = 4, out_features = 3)\
+>>This means that the layer takes in three features and produces 4 outputs.\
+>>This is accomplished the matrix multiplication between the in_features and matrix of 
+\f2\i\b weights
+\f1\i0\b0  that is 4 wide and 3 tall, producing a tensor with 3 numbers. It is also adding a bias tensor to the output.\
+\
+\ul Linear layers can be represented mathematically by:\ulnone \
+y = mx + b\
+y = output tensor\
+m = weight matrix tensor\
+x = input tensor\
+b = bias tensor\
+\
+15:16:55\
+\
+\
+\
+\
+
+\f0\b \ul Metrics
+\f1\b0 \ulnone :\
+Accuracy: The number of correct predictions divided by all predictions\
+Precision: The proportion of positive predictions that are actually correct\
+Recall: The proportion of true positives that were correctly predicted.\
+F1: combines precision and recall into a single metric\
+\
+
+\f0\b \ul Misc:
+\f1\b0 \ulnone \
+The bias variance tradeoff is essentially the tradeoff between overfitting and underfitting. \
+Covariance is a value between negative and positive infinity which says whether two variables are positively or negatively correlated.\
+Correlation is a unitless value between -1 and 1 which describes the strength of the relationship between the variables. }
